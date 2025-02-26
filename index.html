@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+    <link rel="icon" type="image/png" href="./img/favicon_fotogram.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <script src="./scripts/script.js"></script>
+  </head>
+  <body onload="start()">
+    <header w3-include-html="templates/header.html"></header>
+    <header></header>
+    <main>
+      <div class="main_content">
+        <h1 class="gallery_title">Malte's Aviation Gallery</h1>
+        <div class="imgs_container" id="images"></div>
+      </div>
+      <div onclick="hideOverlay()" id="overlay" class="overlay d_none"></div>
+    </main>
+    <footer w3-include-html="templates/footer.html"></footer>
+  </body>
+</html>
